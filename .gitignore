@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+/pomodoro-app-design.jpg
+/testing.html
 
 # testing
 /coverage
