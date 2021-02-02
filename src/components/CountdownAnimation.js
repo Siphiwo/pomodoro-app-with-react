@@ -6,7 +6,7 @@ const CountdownAnimation = ({key, timer, animate, children}) => {
   const { stopAimate } = useContext(SettingsContext)
 
     return (
-        <CountdownCircleTimer
+      <CountdownCircleTimer
         key={key}
         isPlaying={animate}
         duration={timer * 60}
@@ -22,7 +22,7 @@ const CountdownAnimation = ({key, timer, animate, children}) => {
           stopAimate()
         }}
       >
-          {children}
+        {children}
       </CountdownCircleTimer>
     )
 }

@@ -17,7 +17,7 @@ const App = () => {
     setCurrentTimer,
     SettingsBtn } = useContext(SettingsContext)
 
-    useEffect(() => {updateExecute(executing); console.log(executing)}, [executing, startAnimate])
+    useEffect(() => {updateExecute(executing)}, [executing, startAnimate])
 
   return (
     <div className="container">
