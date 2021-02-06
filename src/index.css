@@ -87,3 +87,21 @@ button {
   background-color: #C9CCEA;
   border: 1px solid #0C0E1B;
 }
+.form-container {
+  text-align: center;
+}
+.input-wrapper {
+  margin: 1.5rem;
+}
+.input-wrapper input {
+  height: 30px;
+  width: 30px;
+  padding: 2rem;
+  background-color: #0C0E1B;
+  color:#C9CCEA;
+  border: none;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+  text-align: center;
+  font-size: 14pt;
+}
